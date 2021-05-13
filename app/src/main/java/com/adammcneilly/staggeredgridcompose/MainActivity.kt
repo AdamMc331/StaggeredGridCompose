@@ -10,7 +10,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             StaggeredGridComposeTheme {
-                val inputs = getRandomStringList(10)
+                val inputs = getRandomStringList(100)
                 
                 TextCardList(texts = inputs)
             }
